@@ -82,7 +82,7 @@ async def user_setting_cb(c, query: CallbackQuery):
     reply_markup = InlineKeyboardMarkup(buttons)
     try:
         await query.message.edit_reply_markup(reply_markup)
-        setting = re.sub("is|_", " ", setting).title()
+        setting = re.sub("is|**", " ", setting).title()
         toggle = "Enabled" if toggle == "True" else "Disabled"
         await query.answer(f"{setting} {toggle} Successfully", show_alert=True)
     except Exception as e:
