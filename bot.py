@@ -33,7 +33,7 @@ if __name__ == "__main__" :
     plugins = dict(
         root="plugins"
     )
-    dkbotz = Client(
+    kpslink = Client(
         "Mdisk-Pro",
         bot_token=BOT_TOKEN,
         api_id=API_ID,
@@ -53,11 +53,11 @@ if __name__ == "__main__" :
         async for user in banned_users:
             temp.BANNED_USERS.append(user["user_id"])
         logging.info(LOG_STR)
-        await broadcast_admins(self, '** Bot started successfully **\n\nBot By @DKBOTZ')
+        await broadcast_admins(self, '** Bot started successfully **\n\nBot By @Nanthakps')
         logging.info('Bot started')
 
 
-    dkbotz.run()
+    kpslink.run()
 
 # Removed Upper All Codes Because This is Not Required Now. 
 

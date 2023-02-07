@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-START_MESSAGE = '''**Hello {}, I am Bulk Link Converter. I Can Convert Links Directly From Your KPSLink.in Account
+START_MESSAGE = '''**Hello {}, I am KPSLink.in Bulk Link Converter. I Can Convert Links Directly From Your KPSLink.in Account
     
 1. Go To 👉 https://kpslink.in/member/tools/api  
 2. Than Copy API Key
