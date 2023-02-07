@@ -5,25 +5,25 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 START_MESSAGE = '''**Hello {}, I am Bulk Link Converter. I Can Convert Links Directly From Your KPSLink.in Account
     
 1. Go To 👉 https://kpslink.in/member/tools/api  
-2. Than Copy API Key
-3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)**
+2. Then Copy API Key
+3. Then Type /api then give a single space and then paste your API Key (see example to understand more...)**
 
 **(See Example.👇)
 Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-If You Need Any Support **Contact** at 👉 **@Nanthakps 🔥**
+**If You Need Any Support Contact 🧑‍💻 Master: @Nanthakps 🔥**
 '''
 
 HELP_MESSAGE = '''**Hello {}, I am Bulk Link Converter Bot. I Can Convert Links Directly From Your KPSLink.in Account**
     
 1. Go To 👉 https://kpslink.in/member/tools/api  
-2. Than **Copy API** Key
-3. Than Type **/api** than give a **single space** and than **paste** your **API** Key (**see example** to understand more...)
+2. Then **Copy API** Key
+3. Then Type **/api** then give a **single space** and then **paste** your **API** Key (**see example** to understand more...)
 
 **(See Example.👇)
 Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-If You Need Any Support **Contact** at 👉 **@Nanthakps 🔥**
+**If You Need Any Support Contact 🧑‍💻 Master: @Nanthakps 🔥**
 '''
 
 ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I am KPS Link Converter Bot..**
@@ -42,7 +42,7 @@ ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I am KPS Link Converter 
 
 • **No** need to share **password or email** to convert links.**
 
-If You Need Any Support **Contact** at 👉 **@Nanthakps 🔥**
+**If You Need Any Support Contact 🧑‍💻 Master: @Nanthakps 🔥**
 
 **Click On Custom Alias To Create Custom Link**
 '''
