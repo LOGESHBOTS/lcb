@@ -11,7 +11,7 @@ START_MESSAGE = '''**Hello {}, I am Bulk Link Converter. I Can Convert Links Dir
 **(See Example.👇)
 Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-**If You Need Any Support Contact 🧑‍💻 Master: @Nanthakps 🔥**
+**If You Need Any Support Contact : @Nanthakps 🧑‍💻**
 '''
 
 HELP_MESSAGE = '''**Hello {}, I am Bulk Link Converter Bot. I Can Convert Links Directly From Your KPSLink.in Account**
@@ -23,7 +23,7 @@ HELP_MESSAGE = '''**Hello {}, I am Bulk Link Converter Bot. I Can Convert Links 
 **(See Example.👇)
 Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-**If You Need Any Support Contact 🧑‍💻 Master: @Nanthakps 🔥**
+**If You Need Any Support Contact : @Nanthakps 🧑‍💻**
 '''
 
 ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I am KPS Link Converter Bot..**
@@ -42,7 +42,7 @@ ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I am KPS Link Converter 
 
 • **No** need to share **password or email** to convert links.**
 
-**If You Need Any Support Contact 🧑‍💻 Master: @Nanthakps 🔥**
+**If You Need Any Support Contact : @Nanthakps 🧑‍💻**
 
 **Click On Custom Alias To Create Custom Link**
 '''
