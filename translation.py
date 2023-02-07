@@ -3,60 +3,60 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''**Hello, {}
-I Am ShortnerFly.com, Bulk Link Converter. I Can Convert Links Directly From Your ShortnerFly Account,
+I amkpslink.in, Bulk Link Converter. I Can Convert Links Directly From Your KPS Link Account,
     
-1. Go To 👉 https://ShortnerFly.com/member/tools/api  
+1. Go To 👉 https://kpslink.in/member/tools/api  
 2. Than Copy API Key
 3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)**
 
 **/api(space)API Key 
 (See Example.👇)
-Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
+Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-**➕ Hit** 👉 /Features To Know More Features Of This Bot.
+**➕ Hit** 👉 /features To Know More Features Of This Bot.
 **💁‍♀️ Hit** 👉 /help To Get Help.
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of Shortnerfly than **contact** at 👉 @Cyniteofficial (all **shortners** support available.)
+If You Want Any **Other Shortner** Link Converter Bot Instead Of KPS Link than **contact** at 👉 @Nanthakps (all **shortners** support available.)
 '''
 
 HELP_MESSAGE = '''**Hello, {}
-I Am ShortnerFly, Bulk Link Converter Bot. I Can Convert Links Directly From Your ShortnerFly Account,**
+I amKPS Link, Bulk Link Converter Bot. I Can Convert Links Directly From Your KPS Link Account,**
     
-1. Go To 👉 https://ShortnerFly.com/member/tools/api  
+1. Go To 👉 https://kpslink.in/member/tools/api  
 2. Than **Copy API** Key
 3. Than Type **/api** than give a **single space** and than **paste** your **API** Key (**see example** to understand more...)
 
 **/api(space)API Key 
 (See Example.👇)
-Example:** `/api de303d5270f481aec928f39883da7b7f9a8812ac `
+Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-**➕ Hit** 👉 /Features To Know More Features Of This Bot.
+**➕ Hit** 👉 /features To Know More Features Of This Bot.
 **💁‍♀️ Hit** 👉 /help To Get Help.
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of ""Shortnerfly** than **contact** at 👉 @Cyniteofficial (all **shortners support** available.)**
+If You Want Any **Other Shortner** Link Converter Bot Instead Of ""KPS Link** than **contact** at 👉 @Nanthakps (all **shortners support** available.)**
 '''
 
-ABOUT_TEXT = '''**Hey! My name is @ShortnerFlyBot. I am Shortener Fly Link Converter Bot.**
+ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I amKPS Link Converter Bot.**
 
 **⚡Features⚡**
 
-• I can **Convert any** links or posts to your **Shortnerfly** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
+• I can **Convert any** links or posts to your **KPS Link** link / post. (Button Links Posts, Hidden links/Hyperlinks All Are Supported)
 
 • I Can **auto** add custom **footer text** to your every post. Hit 👉 /footer To know more...
 
-• I Can **auto** add custom **Header text** to your every post. Hit 👉 /Header To know more...
+• I Can **auto** add custom **Header text** to your every post. Hit 👉 /header To know more...
 
 • I Can **replace / remove** other's **channel links** with **your channel** link. Hit 👉 /channel To know More...
 
-• I Can **Automatically Replace** Your ***Banner** Image To images in the post. Hit  👉/Banner To Know More... 
+• I Can **Automatically Replace** Your ***Banner** Image To images in the post. Hit  👉/banner To Know More... 
 
 • **No** need to share **password or email** to convert links.**
 
- Anyone who want to use any **other shortner** instead of ShortnerFly than **contact** at 👉 @Cyniteofficial (all **shortners support** available.)
+ Anyone who want to use any **other shortner** instead of KPS Link than **contact** at 👉 @Nanthakps (all **shortners support** available.)
 
 **Click On Custom Alias To Create Custom Link**
 '''
@@ -65,7 +65,7 @@ CUSTOM_ALIAS_MESSAGE = """For Custom Alias, `[link] | [custom_alias]`, Send in t
 
 This feature works only in private mode only
 
-Ex: https://t.me/shortnerfly | Shortnerfly"""
+Ex: https://t.me/KPSLink | KPS Link"""
 
 
 ADMINS_MESSAGE = """
@@ -96,7 +96,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Get Api', url=f'https://ShortnerFly.com/member/tools/api')
+        InlineKeyboardButton('Get Api', url=f'https://kpslink.in/member/tools/api')
     ]
 ])
 
@@ -110,7 +110,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-- Website: [{base_site}](https://shortnerfly/ref/rngharman)
+- Website: [{base_site}](https://kpslink/ref/nanthakps)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
@@ -129,9 +129,9 @@ USER_ABOUT_MESSAGE = """
 SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, 
 `/set_api [api]`
             
-Ex: `/api de303d5270f481aec928f39883da7b7f9a8812ac `
+Ex: `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-Get API From [{base_site}](https://shortnerfly/ref/rngharman)
+Get API From [{base_site}](https://kpslink.in/ref/nanthakps)
 
 Current {base_site} API: `{shortener_api}`"""
 
@@ -149,18 +149,18 @@ This Text will be added to the **bottom** of every message **caption** or text
 For adding **line break** use \n
 To Remove Footer Text: `/footer remove`"""
 
-USERNAME_TEXT = """**Hello Harman, I am shortnerfly.com, Bulk Link Converter Bot From Linked shortnerfly.com Account,**
+USERNAME_TEXT = """**Hello, I amkpslink.in, Bulk Link Converter Bot From Linked kpslink.in Account,**
 
 **🌟 Type** /channel (channel link or username)
 
 **example:**
-/channel @shortnerfly
+/channel @KPSLink
 Or
-/channel https://t.me/shortnerfly
+/channel https://t.me/KPSLink
 
 **🤘 Hit** 👉 /features To Know More Features Of This Bot.
 
-**- Message @cyniteofficial For More Help -**"""
+**- Message @Nanthakps For More Help -**"""
 
 BANNER_IMAGE = """
 Usage: `/banner_image image_url` or reply to any Image with this command
@@ -169,7 +169,7 @@ This image will be automatically replaced with other images in the post
 
 To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://telegra.ph/file/5e96340a91470256b387a.jpg`"""
+Eg: `/banner_image https://telegra.ph/file/496e7ae942556eb072ab6.jpg`"""
 
 
 BANNED_USER_TXT = """
