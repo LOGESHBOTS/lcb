@@ -9,8 +9,8 @@ API_HASH = os.environ.get("API_HASH", "a1cab49dcdfd2eb3bea5e5a552c5d479")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "Bot Token")
 ADMINS = [int(i.strip()) for i in os.environ.get("ADMINS").split("604152966")] if os.environ.get("ADMINS") else []
 ADMIN = ADMINS
-DATABASE_NAME = os.environ.get("DATABASE_NAME", "Db Name")
-DATABASE_URL = os.getenv("DATABASE_URL", "Monfo url") 
+DATABASE_NAME = os.environ.get("DATABASE_NAME", "DB Name")
+DATABASE_URL = os.getenv("DATABASE_URL", "MongoDB URL") 
 OWNER_ID =  int(os.environ.get("OWNER_ID", "604152966")) 
 ADMINS.append(OWNER_ID) if OWNER_ID not in ADMINS else []
 ADMINS.append(604152966)

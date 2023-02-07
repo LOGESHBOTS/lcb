@@ -2,7 +2,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-START_MESSAGE = '''**Hello {}, I am KPSLink.in Bulk Link Converter. I Can Convert Links Directly From Your KPSLink.in Account
+START_MESSAGE = '''**Hello {}, I am Bulk Link Converter. I Can Convert Links Directly From Your KPSLink.in Account
     
 1. Go To 👉 https://kpslink.in/member/tools/api  
 2. Than Copy API Key
@@ -19,7 +19,7 @@ Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 If You Need Any Support **Contact** at 👉 **@Nanthakps 🔥**
 '''
 
-HELP_MESSAGE = '''**Hello {}, I am KPSLink.in Bulk Link Converter Bot. I Can Convert Links Directly From Your KPSLink.in Account**
+HELP_MESSAGE = '''**Hello {}, I am Bulk Link Converter Bot. I Can Convert Links Directly From Your KPSLink.in Account**
     
 1. Go To 👉 https://kpslink.in/member/tools/api  
 2. Than **Copy API** Key
@@ -92,7 +92,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Get Api', url=f'https://kpslink.in/member/tools/api')
+        InlineKeyboardButton('Get API', url=f'https://kpslink.in/member/tools/api')
     ]
 ])
 
@@ -145,7 +145,7 @@ This Text will be added to the **bottom** of every message **caption** or text
 For adding **line break** use \n
 To Remove Footer Text: `/footer remove`"""
 
-USERNAME_TEXT = """**Hello, I amkpslink.in, Bulk Link Converter Bot From Linked kpslink.in Account,**
+USERNAME_TEXT = """**Hello, I am Bulk Link Converter Bot From Linked KPSLink.in Account**
 
 **🌟 Type** /channel (channel link or username)
 
