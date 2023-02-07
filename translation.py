@@ -11,11 +11,6 @@ START_MESSAGE = '''**Hello {}, I am Bulk Link Converter. I Can Convert Links Dir
 **(See Example.👇)
 Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-**➕ Hit** 👉 /features To Know More Features Of This Bot.
-**💁‍♀️ Hit** 👉 /help To Get Help.
-**➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
-**➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
-
 If You Need Any Support **Contact** at 👉 **@Nanthakps 🔥**
 '''
 
@@ -27,11 +22,6 @@ HELP_MESSAGE = '''**Hello {}, I am Bulk Link Converter Bot. I Can Convert Links 
 
 **(See Example.👇)
 Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
-
-**➕ Hit** 👉 /features To Know More Features Of This Bot.
-**💁‍♀️ Hit** 👉 /help To Get Help.
-**➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
-**➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
 If You Need Any Support **Contact** at 👉 **@Nanthakps 🔥**
 '''
