@@ -8,8 +8,7 @@ START_MESSAGE = '''**Hello {}, I am KPSLink.in Bulk Link Converter. I Can Conver
 2. Than Copy API Key
 3. Than Type /api than give a single space and than paste your API Key (see example to understand more...)**
 
-**/api(space)API Key 
-(See Example.👇)
+**(See Example.👇)
 Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
 **➕ Hit** 👉 /features To Know More Features Of This Bot.
@@ -26,8 +25,7 @@ HELP_MESSAGE = '''**Hello {}, I am KPSLink.in Bulk Link Converter Bot. I Can Con
 2. Than **Copy API** Key
 3. Than Type **/api** than give a **single space** and than **paste** your **API** Key (**see example** to understand more...)
 
-**/api(space)API Key 
-(See Example.👇)
+**(See Example.👇)
 Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
 **➕ Hit** 👉 /features To Know More Features Of This Bot.
