@@ -112,14 +112,14 @@ USER_ABOUT_MESSAGE = """
 """
 
 
-SHORTENER_API_MESSAGE = """To add or update your Shortner Website API, 
+SHORTENER_API_MESSAGE = """**To add or update your Shortner Website API,**
 `/api [API Key]`
             
-Ex: `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
+**Ex:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-Get API From [{base_site}](https://kpslink.in/ref/nanthakps)
+**Get API From [{base_site}](https://kpslink.in/ref/nanthakps)**
 
-Current {base_site} API: `{shortener_api}`"""
+**Current {base_site} API: `{shortener_api}`**"""
 
 HEADER_MESSAGE = """Reply to the Header Text You Want
 
