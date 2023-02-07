@@ -40,7 +40,7 @@ Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 If You Want Any **Other Shortner** Link Converter Bot Instead Of ""KPS Link** than **contact** at 👉 @Nanthakps (all **shortners support** available.)**
 '''
 
-ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I amKPS Link Converter Bot.**
+ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I am KPS Link Converter Bot..**
 
 **⚡Features⚡**
 
