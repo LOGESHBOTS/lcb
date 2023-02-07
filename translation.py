@@ -2,8 +2,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 
-START_MESSAGE = '''**Hello, {}
-I amkpslink.in, Bulk Link Converter. I Can Convert Links Directly From Your KPS Link Account,
+START_MESSAGE = '''**Hello {}, I am KPSLink.in, Bulk Link Converter. I Can Convert Links Directly From Your KPSLink.in Account
     
 1. Go To 👉 https://kpslink.in/member/tools/api  
 2. Than Copy API Key
@@ -18,11 +17,10 @@ Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of KPS Link than **contact** at 👉 @Nanthakps (all **shortners** support available.)
+If You Need Any Support **Contact** at 👉 **@Nanthakps 🔥**
 '''
 
-HELP_MESSAGE = '''**Hello, {}
-I amKPS Link, Bulk Link Converter Bot. I Can Convert Links Directly From Your KPS Link Account,**
+HELP_MESSAGE = '''**Hello {}, I am KPSLink.in, Bulk Link Converter Bot. I Can Convert Links Directly From Your KPSLink.in Account**
     
 1. Go To 👉 https://kpslink.in/member/tools/api  
 2. Than **Copy API** Key
@@ -37,7 +35,7 @@ Example:** `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 **➕ Hit** 👉 /channel Command To Get Help About Adding your channel to bot.
 **➕ Hit** 👉 /footer To Get Help About Adding your Custom Footer to bot.
 
-If You Want Any **Other Shortner** Link Converter Bot Instead Of ""KPS Link** than **contact** at 👉 @Nanthakps (all **shortners support** available.)**
+If You Need Any Support **Contact** at 👉 **@Nanthakps 🔥**
 '''
 
 ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I am KPS Link Converter Bot..**
@@ -56,7 +54,7 @@ ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I am KPS Link Converter 
 
 • **No** need to share **password or email** to convert links.**
 
- Anyone who want to use any **other shortner** instead of KPS Link than **contact** at 👉 @Nanthakps (all **shortners support** available.)
+If You Need Any Support **Contact** at 👉 **@Nanthakps 🔥**
 
 **Click On Custom Alias To Create Custom Link**
 '''
