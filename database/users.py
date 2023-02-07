@@ -21,7 +21,7 @@ async def get_user(user_id):
             "footer_text": None,
             "username": None,
             "base_site": "kpslink.in",
-            "banner_image": True,
+            "banner_image": None,
             "is_banner_image": True,
             "is_username": True,
             "is_header_text": True,
