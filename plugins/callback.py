@@ -119,7 +119,7 @@ async def on_callback_query(bot: Client, query: CallbackQuery):
         await query.message.edit(ADMINS_MESSAGE.format(admin_list=await h.get_admins), reply_markup=BACK_REPLY_MARKUP)
 
     elif query.data == 'restart':
-        await query.message.edit('**Restarting.....**')
+        await query.message.edit('**Restarting...**')
         await asyncio.sleep(5)
         os.execl(sys.executable, sys.executable, *sys.argv)
     await query.answer()
