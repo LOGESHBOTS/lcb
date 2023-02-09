@@ -40,7 +40,7 @@ async def private_link_handler(c: Client, message: Message):
         if vld is not True:
             return await message.reply_text(vld)
         try:
-            txt = await message.reply('`Converting.......`', quote=True)
+            txt = await message.reply('`Converting....`', quote=True)
 
             await main_convertor_handler(message, user_method, user=user)
             await update_stats(message, user_method)
