@@ -3,33 +3,33 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 START_MESSAGE = '''
-**Hello {}, I am Bulk Link Converter. I Can Convert Links Directly From Your KPSLink.in Account
+**Hello {}, I am Bulk Link Converter. I Can Convert Links Directly From Your urlshorten.in Account
     
-1. Go To 👉 https://kpslink.in/member/tools/api  
+1. Go To 👉 https://urlshorten.in/member/tools/api  
 2. Then Copy API Key
 3. Then Type /api then give a single space and then paste your API Key (see example to understand more...)
 
 (See Example 👇)
 Example : `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-If You Need Any Support Contact : @Nanthakps 🧑‍💻**
+If You Need Any Support Contact : @urlshortenadminbot 🧑‍💻**
 '''
 
 
 HELP_MESSAGE = '''
-**Hello {}, I am Bulk Link Converter Bot. I Can Convert Links Directly From Your KPSLink.in Account
+**Hello {}, I am Bulk Link Converter Bot. I Can Convert Links Directly From Your urlshorten.in Account
     
-1. Go To 👉 https://kpslink.in/member/tools/api  
+1. Go To 👉 https://urlshorten.in/member/tools/api  
 2. Then Copy API Key
 3. Then Type /api then give a single space and then paste your API Key (see example to understand more...)
 
 (See Example 👇)
 Example : `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-If You Need Any Support Contact : @Nanthakps 🧑‍💻**
+If You Need Any Support Contact : @urlshortenadminbot 🧑‍💻**
 '''
 
-ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I am KPS Link Converter Bot..**
+ABOUT_TEXT = '''**Hey! My name is @URLSHORTEN_LINKCONVERTOR_BOT. I am urlshorten Link Converter Bot..**
 
 **⚡Features⚡**
 
@@ -45,7 +45,7 @@ ABOUT_TEXT = '''**Hey! My name is @KPSLinkConverterBot. I am KPS Link Converter 
 
 • **No** need to share **password or email** to convert links.**
 
-**If You Need Any Support Contact : @Nanthakps 🧑‍💻**
+**If You Need Any Support Contact : @urlshortenadminbot 🧑‍💻**
 
 **Click On Custom Alias To Create Custom Link**
 '''
@@ -55,7 +55,7 @@ CUSTOM_ALIAS_MESSAGE = """
 
 This feature works only in private mode only
 
-Ex: https://t.me/KPSLink | KPS Link**
+Ex: https://t.me/urlshortenlink | urlshorten**
 """
 
 
@@ -87,7 +87,7 @@ HELP_REPLY_MARKUP = InlineKeyboardMarkup([
 
 START_MESSAGE_REPLY_MARKUP  = InlineKeyboardMarkup([
     [
-        InlineKeyboardButton('Get API', url=f'https://kpslink.in/member/tools/api')
+        InlineKeyboardButton('Get API', url=f'https://urlshorten.in/member/tools/api')
     ]
 ])
 
@@ -101,7 +101,7 @@ BACK_REPLY_MARKUP = InlineKeyboardMarkup([
 ])
 
 USER_ABOUT_MESSAGE = """
-**- Website: [{base_site}](https://kpslink/ref/nanthakps)
+**- Website: [{base_site}](https://urlshorten.in/ref/Logesh)
 
 - Site Link {base_site} Current Linked API: {shortener_api}
 
@@ -122,7 +122,7 @@ SHORTENER_API_MESSAGE = """
             
 Example : `/api 8f17fbb5023fcc76fa7e379e3b9157a84e56e0ba `
 
-Get API From [{base_site}](https://kpslink.in/ref/nanthakps)
+Get API From [{base_site}](https://urlshorten.in/ref/Logesh)
 
 Current {base_site} API: `{shortener_api}`**
 """
@@ -146,18 +146,18 @@ To Remove Footer Text: `/footer remove`**
 """
 
 USERNAME_TEXT = """
-**Hello, I am Bulk Link Converter Bot From Linked KPSLink.in Account
+**Hello, I am Bulk Link Converter Bot From Linked urlshorten.in Account
 
 🌟 Type /channel (channel link or username)
 
 Example:
-/channel @KPSLink
+/channel @urlshortenlink
 Or
-/channel https://t.me/KPSLink
+/channel https://t.me/urlshortenlink
 
 🤘 Hit 👉 /features To Know More Features Of This Bot.
 
-- Message @Nanthakps For More Help -**
+- Message @urlshortenadminbot For More Help -**
 """
 
 BANNER_IMAGE = """
@@ -167,7 +167,7 @@ This image will be automatically replaced with other images in the post
 
 To remove custom image, `/banner_image remove`
 
-Eg: `/banner_image https://telegra.ph/file/496e7ae942556eb072ab6.jpg`**
+Eg: `/banner_image https://telegra.ph/file/496e7942556eb072ab6.jpg`**
 """
 
 BANNED_USER_TXT = """
