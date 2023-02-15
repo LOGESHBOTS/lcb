@@ -20,7 +20,7 @@ async def get_user(user_id):
             "header_text": "",
             "footer_text": "",
             "username": None,
-            "base_site": "kpslink.in",
+            "base_site": "urlshorten.in",
             "banner_image": None,
             "is_banner_image": True,
             "is_username": True,
